@@ -22,7 +22,7 @@ temp1 = ""
 
 #Запуск
 now = datetime.datetime.now()
-line = "####################################\n    [" + now.strftime(" %d-%m-%Y | %H:%M:%S") + "] \n " + "========== CI.Soup v0.1 =========="
+line = "####################################\n    [" + now.strftime(" %d-%m-%Y | %H:%M:%S") + "] \n " + "========== CI.Soup NSU v0.1 =========="
 print(line + '\n')
 
 print("Поиск input.html в корне")
@@ -89,4 +89,4 @@ with open(name, "w", newline="") as file:
 
 print("Выполнено.")
 
-print("CI.Soup v0.1")
+print("CI.Soup NSU v0.1")
