@@ -39,7 +39,7 @@ totalPeop = 1 #счетчик людей
 
 #Запуск
 now = datetime.datetime.now()
-line = "####################################\n    [" + now.strftime(" %d-%m-%Y | %H:%M:%S") + "] \n " + "========== CI.Soup v0.5 =========="
+line = "####################################\n    [" + now.strftime(" %d-%m-%Y | %H:%M:%S") + "] \n " + "========== CI.Soup NSU v0.5 =========="
 print(line + '\n')
 
 #Работа с веб ==================================================================
@@ -203,4 +203,4 @@ with open(name, "w", newline="") as file:
         writer = csv.writer(file, delimiter=";") 
         writer.writerows(data)
 
-print("Выполнено.\nCI.Soup v0.5\nCathx.tech")
+print("Выполнено.\nCI.Soup NSU v0.5\nCathx.tech")
